@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV – Adam Corcia</title>
+  <style>
+    /* ====== STYLES GÉNÉRAUX ====== */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #eef2f7;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .cv-wrapper {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      display: grid;
+      grid-template-columns: 35% 65%;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    /* ====== COLONNE GAUCHE ====== */
+    .sidebar {
+      background: linear-gradient(180deg, #0073e6, #005bb5);
+      color: white;
+      padding: 40px 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .sidebar h2 {
+      margin: 10px 0 5px;
+      font-size: 1.6em;
+    }
+
+    .sidebar h3 {
+      font-weight: 400;
+      font-size: 1em;
+      margin-bottom: 30px;
+    }
+
+    .sidebar section {
+      width: 100%;
+      text-align: left;
+      margin-top: 25px;
+    }
+
+    .sidebar h4 {
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+
+    /* ====== COLONNE DROITE ====== */
+    .main {
+      padding: 40px;
+    }
+
+    .main section {
+      margin-bottom: 30px;
+    }
+
+    .main h2 {
+      color: #0073e6;
+      border-left: 4px solid #0073e6;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .main .item {
+      margin-bottom: 15px;
+    }
+
+    .item h3 {
+      margin: 0;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    .item span {
+      display: block;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 800px) {
+      .cv-wrapper {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        border-radius: 10px 10px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-wrapper">
+    <!-- ====== COLONNE GAUCHE ====== -->
+    <aside class="sidebar">
+      <div class="profile-img">
+        <!-- Image de profil -->
+        <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=500&q=80" alt="Photo de profil">
+      </div>
+      <h2>Adam NOM: Corcia</h2>
+      <h3>Etudiant a la Guardia cyber security school</h3>
+
+      <section>
+        <h4>Contact</h4>
+        <ul>
+          <li>📧 X</li>
+          <li>📞 +33 X XX XX XX XX</li>
+          <li>📍 XXX Ville, Pays XXX</li>
+        </ul>
+      </section>
+
+      <section>
+        <h4>Réseaux</h4>
+        <ul>
+          <li>🔗 LinkedIn : XXX lien XXX</li>
+          <li>💻 GitHub : XXX lien XXX</li>
+          <li>🐦 Twitter : XXX pseudo XXX</li>
+        </ul>
+      </section>
+
+      <section>
+        <h4>Compétences</h4>
+        <ul>
+          <li>XXX Compétence 1 XXX</li>
+          <li>XXX Compétence 2 XXX</li>
+          <li>XXX Compétence 3 XXX</li>
+          <li>XXX Compétence 4 XXX</li>
+        </ul>
+      </section>
+
+      <section>
+        <h4>Langues</h4>
+        <ul>
+          <li>🇫🇷 Français – XXX Niveau XXX</li>
+          <li>🇬🇧 Anglais – XXX Niveau XXX</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ====== COLONNE DROITE ====== -->
+    <main class="main">
+      <section>
+        <h2>Profil</h2>
+        <p>XXX Décrivez ici votre profil professionnel, vos passions, vos objectifs de carrière ou ce qui vous motive. XXX</p>
+      </section>
+
+      <section>
+        <h2>Expérience professionnelle</h2>
+        <div class="item">
+          <h3>XXX Poste occupé XXX – XXX Entreprise XXX</h3>
+          <span>XXX Années (ex : 2021 - Présent) XXX</span>
+          <p>XXX Décrivez vos missions principales, vos réalisations et les compétences acquises. XXX</p>
+        </div>
+        <div class="item">
+          <h3>XXX Poste occupé XXX – XXX Entreprise XXX</h3>
+          <span>XXX Années XXX</span>
+          <p>XXX Décrivez vos missions principales, vos réalisations et les compétences développées. XXX</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Formation</h2>
+        <div class="item">
+          <h3>XXX Diplôme XXX – XXX Établissement XXX</h3>
+          <span>XXX Années XXX</span>
+          <p>XXX Détails sur la formation, les spécialisations ou projets réalisés. XXX</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Centres d’intérêt</h2>
+        <p>XXX Exemple : 🎨 Design, 💻 Programmation, 📷 Photographie, 🌍 Voyages... XXX</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
